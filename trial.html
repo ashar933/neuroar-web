@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NeuRoar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/boxicons/2.0.7/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        /* Style for the text that will change */
+        .text {
+            font-size: 16px;
+        }
+
+        /* Style for the text when toggle is on */
+        .text.toggle-on {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            text-align: center;
+        }
+
+        /* Style for the toggle icon */
+        .toggle-icon {
+            margin-top: 100px;
+            cursor: pointer;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 9999;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar nav sticky-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="img/icon.png" alt="" width="50px">
+            </a>
+            <a class="navbar-brand mt-1" href="#">NeuRoar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blogs">Highlights</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR ENDS-->
+
+    <!-- HERO -->
+    <div class="hero vh-100 d-flex align-items-center" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 mx-auto text-center">
+                    <h1>Bionic Reading Toggle</h1>
+                    <i class="fas fa-toggle-off toggle-icon" id="toggleIcon"></i>
+                    <p class="text" id="textToStyle">This is the text whose appearance will change</p>
+                    <h1 class="display-2">NeuRoar</h1>
+                    <h2 class="display-6">Serenity in Reality</h2>
+
+                    <p class="paragraph my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HERO ENDS-->
+
+    <!-- BLOGS -->
+    <section id="blogs">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h1 class="blog-text mt-3">Latest News</h1>
+                    <p class="paragraphBlogs my-3">
+                        Find out what has been happening with NeuRoar!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-8 mt-3">
+                    <div class="blog-post card-effect">
+                        <img src="img/blog.png" alt="" width="350px" height="175px">
+                        <h5 class="headings mt-3">
+                            <a href="story1.html" target="_blank">
+                                Is This Normal? My Teens' Gen Z Characteristics & Slow
+                                Adolescent Development
+                            </a>
+                        </h5>
+                        <p class="mt-3">
+                            I have teenagers. The colored hair, the rolled eyes, the talking back — none of
+                            that surprises me.
+                            But several unique Gen Z characteristics baffle me.
+
+                            And it's not just my kids. I swap stories with other parents, and we all see the same thing.
+                            Everything is fluid and expansive to these kids — their identities, their vocabularies.
+                            But when it comes to adolescent development, they're like players on the bench. They're
+                            sitting...
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-8 mt-3">
+                    <div class="blog-post card-effect">
+                        <img src="img/blog2.webp" alt="" width="350px" height="175px">
+                        <h5 class="headings mt-3">
+                            <a href="story2.html"
+                                target="_blank">
+                                Gen Z's Position on Workplace Neurodiversity
+                            </a>
+                        </h5>
+                        <p class="mt-3">
+                            While many of us don't consider the social striations between the generations
+                            relevant, the
+                            truth is there are distinct psychological differences between the Baby Boomers and the
+                            fresh new crop of Gen-Zs entering the modern workplace. Often, a company will have
+                            representatives
+                            from all generations working together.
+
+                            How these psyches view diversity and neurodiversity is, naturally, quite varied. The things
+                            that challenged the Baby...
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-8 mt-3">
+                    <div class="blog-post card-effect">
+                        <img src="img/blog3.webp" alt="" width="350px">
+                        <h5 class="headings mt-3">
+                            <a href="story3.html"
+                                target="_blank">
+                                Top tips to attract and retain more Gen Z employees
+                            </a>
+                        </h5>
+                        <p class="mt-3">
+                            Studies show that by 2030 30% of the total workforce will be made up of
+                            Generation Z, as this
+                            generation is set to grow rapidly and shows unique focuses gaining a deeper understanding as
+                            to their character traits, motivations, and value regarding work - will pave the way towards
+                            building a happier and healthier workforce.
+
+                            As a generation, Gen Z are characterised as having a strong uncompromising sense of what
+                            they want out of their first job...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--BLOGS END -->
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-2">
+                        <img class="logo" src="img/icon.png" width="100px" alt="">
+                    </div>
+                    <div class="col-md-10 d-flex justify-content-end">
+                        <div class="social-icons">
+                            <a href="#">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAA
+                                AUlJREFUSEvt1L9Kw1AUBvDv2BYdRAc75OIDiOAizkKb9gUcuiSBurQ+hLtvoGgRdEh06O5mog/g4KDgA7S3VkRQXJ
+                                TkiKA1FEpypU39k7vew/nd83E5hDEdGpOLXwpXKhlxN7XMWZ4mP3iiXNBt3890cNF4jUry2xML3VwjwjYzRB9yJV1naS
+                                SwphvrBDoY0HxE8Eo9J2af2wDyicJa2SpQwF4fegPQCQGPAXO34zk7Q49aK5lVYhyGGt/KuZd5NJt+FBa+V/5comjUQbT
+                                31YTOpWsXVND3WnW4ZG2AebcHMc6k5xT/Fix08xrAYsypjqXrGFG1saJWgpm3pHe0mTwMqknX3k8cnmCUW55zOhQ43ETo
+                                Zg1AI/lfncKJLZA06jTqqM3xcR9rV/+IBZJftUR2Egufj8n4eGh59mXMQXtlyhOrAoPq/x/8Bi6Aox+A8IuKAAAAAElFTk
+                                SuQmCC" width="30px" />
+                            </a>
+                            <a href="https://www.instagram.com/_neuroar/?hl=en" target="_blank">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABGRJRE
+                                FUSEvNlk9sFHUUx79vptSEaqIBdGZb1BjRaIKVghfI4u5M44WSGiKh7GwrksDBW6vRhChpJUQTJfZiYoyItju7IQQxQLnIztTSBGNpa
+                                wxGYvBgbHempgajbQ/d7u/Jr/TPsju7bb2Uuczh937v8977vX+EVfpolbi4t8Hrw3F9TSWeZIJaLkLEyGWncXP8SsJbKpIlPd4QOaBV
+                                KNkPAewC8NBSigrObwHoyWbprVJGBIK1aHwXEZ8GUDWncBJMwyDkyhnA4EoC1QF835zcBDPv893kpcJ7ReDQ7sNreXLyNwAag0/d/n/
+                                qr8sO4syZstAFxZFIhaaGwsTUASDMQEapqtqUufDZVD68GBy1OphwlBmnfdduWmGIoRuxZmaFfDfRpUctF4QIgToyTqK9LFg3rBEA1Tk
+                                S2p/p1NhKwBIKUJe8w+DXVFaGBfGPAEY9x64pCZ5LKJmRNzzHfiYIWmO0VM9wrpFA20HMzLg6M0PnZBJp0XgLEX91B0wHfSdxSjesfwH
+                                cT0JsyPSmxud13hVq3YjLxBgEU7/nJsKFYD0aOwyijwA8UHD2DzFaM679hWbEDgAKgfi6n7YHdMOS+fKEEMrmsd7u68FgMx4Gcx8RejJ
+                                puyFfuWZabxBDQiWkE+AhodAaBfwcM7VKrwC0eo7dmX9PN6yfAGxWSGwfTaeuBoJDZqyemb4FcM5z7D3zQqH6pi0s1AEA4yrUrSNO12i
+                                +8lB986MsxJCMBLOo893Uz/PnumHJN64lRYQzl1P95cHEZ7108pUFsBl7j5neBXOb5yY/Dnr7kBF7m0EfAHjHc+zji+D4EMBbQLTTSyeu
+                                BIKro5YpCJeLPDasCww0MFOD7yZ6gsB6NLYHRGdRYLRuWIMA6phFxHdT3wWCtfp4hAS7BFzMOPbuBatN6xswGompMeMmzq8IbMYGwLSNi
+                                Q0/nXTLghk47zt247yQZlpHiSEby5t+2j4RCDbjR8B8HIwjnmu/n/fG1wBsBfhFz0n2rcjj0EtNG3lGvQFgSoX6fGFy6UbsMYCGAVRks/
+                                R0/mBYXnJFrR1M6A8sp6j1OhE+ATABoJOYrwmCHAq1sowArAXokOckPi8oJ5nhz0IoL3i93dL72e+uBjJXNkMlG4hhHbpdMjLUxQ2EuC2
+                                TTp4sajpzDUQlUTuSTsmaLgZXR6waoeAPAL97jv140FvOtkzKvUyMHQByTPh+Zpq+Dpy77e2K3ndzSo5JRWDjaK8t50AxGHv3qvpflX/L
+                                LpTNUmg5m0SQcQuJFWneBkXIxjPhrZt+MH+0Fo1FzbROEuMggKTn2FY5xUud6YYlszgs57rvJKXOha94Hkf2r2dF+fXOukOXhOBjY5FNP
+                                6C9XSwFmj1fXASOAbPPcYuEeCp/MhUlV17dvkqML/NA/3f1kQOyxXOS3YVGl1z2dCO2E0RtYMgOpizL20UhwcBFAp/IbxplQ10IeNjc/4
+                                hCauBSUMoYwblfltpe7u2FfoVhXpb4qnn8H8AFAT25OV8NAAAAAElFTkSuQmCC" width="30px" />
+                            </a>
+                            <a href="#">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAiVJREFU
+                                SEvt1j9o1HAUB/Dvu6b2UBwUpJdDwT90cVRQB1t6idbBUQTJpVBwqChCB0WhSMWhiA46iDo6JHEo6CKU0iZ3qJNgcXPwKiJ3lwOhCnY40
+                                +P3NAXLL6k9xCZUaLPl/ZL3yfvl/fILYZ0OWicX/xec04whcGYXEVzfs2bTmJUVFau6+QrMx5cxwqDv2lbSeARWdXMYzI9jyHvfsw+mC
+                                uc0Y4xAN2PIgu/Z21OFVd3sBfPLGPLU92wjVThMrmrFCwCuE5AH8HxRBOe/lCcWUoeTBlbLl+g63n3q7M7FINujsKjVyna1XRERuHtgcF
+                                +mJT7KNxDhYd21L4WxnGZcIdBdebxLdO4IqNXHxGMADklj3wFMdXQGw9Wpifn4Q6wZBtEImO+vVh0DlS0BH/n82vkaKUg++ZeKfzViE0C2b
+                                W8QjfquNZ40HOYTAOYAqgPcB6zYA2Z9zz6cNNwMP7F+yXm71AcnzH4SPA1AkSCxrWt+a2Vy8sfv2JrfMYMfNDznslxNXi++YMZpOdYhqKda
+                                tiqJwWA+45ecZzKiasV7AEbkGIOPNjznTWIwEZ+su86MjOQK5g0ivhWBM1RozFjlP8O6sT/DNBdtAnpU96yLS++vYF4l4juRhMRaw3VKka
+                                nWjGsMur0Jb071cg90b7jm2ts/lG0qrWPyMlBI1KrTzocwlh84t0cI5YA8nm0p7z6Vn3yLLKe/uC7RH4G2O1RscOPBPwEyuHkuuumR4gAAA
+                                ABJRU5ErkJggg==" width="30px"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+
+    <script>
+        // Get the toggle icon element
+        const toggleIcon = document.getElementById('toggleIcon');
+        // Get the text element to be styled
+        const textToStyle = document.getElementById('textToStyle');
+
+        // Store the original text content
+        const originalTextContent = textToStyle.innerHTML;
+
+        const BionicReading = () => {
+            const sentence = textToStyle.innerText;
+            const words = sentence.split(' ');
+
+            const formattedWords = words.map((word, index) => {
+                let boldCount = 0;
+                const length = word.length;
+
+                if (length == 1) {
+                    boldCount = 0;
+                } else if (length <= 3) {
+                    boldCount = 1;
+                } else if (length > 3 && length <= 6) {
+                    boldCount = 3;
+                } else if (length >= 7 && length <= 10) {
+                    boldCount = 4;
+                } else {
+                    boldCount = 5;
+                }
+
+                return (
+                    `<span key="${index}" style="font-weight: bold;">${word.slice(0, boldCount)}</span>` +
+                    `<span>${word.slice(boldCount)}</span>` +
+                    `${index !== words.length - 1 ? '&nbsp;' : ''}`
+                );
+            });
+
+            // Join the formatted words and set as HTML content
+            textToStyle.innerHTML = formattedWords.join('');
+        };
+
+        // Add event listener to toggle icon
+        toggleIcon.addEventListener('click', function () {
+            // Toggle the toggle icon's class
+            toggleIcon.classList.toggle('fa-toggle-off');
+            toggleIcon.classList.toggle('fa-toggle-on');
+
+            // Check if toggle icon is toggled on
+            if (toggleIcon.classList.contains('fa-toggle-on')) {
+                BionicReading(); // Call the BionicReading function when toggle is on
+                textToStyle.classList.add('toggle-on');
+            } else {
+                textToStyle.innerHTML = originalTextContent; // Restore original text content
+                textToStyle.classList.remove('toggle-on');
+            }
+        });
+    </script>
+
+</body>
+
+</html>

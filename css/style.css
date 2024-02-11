@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+    --beige: #d9d9d9;
+    --pagebg: #F1FCFF;
+    --lighestblue: #D1ECFF;
+    --stdlightblue: #A4CBE1;
+    --darkerlightblue: #7ca0c1;
+    --dark: #19425B;
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: Poppins, 'sans-serif';
+    line-height: 1.7;
+    color: var(--darkerlightblue);
+    background-color: var(--pagebg);
+}
+
+.logo{
+    margin-left: 20px;
+    width: 50px;
+    margin-right: -12px;
+}
+
+.navbar {
+    background-color: #fff8f2;
+    margin-left: 10;
+    
+}
+
+.navbar .nav-link {
+    font-size: 20px;
+    font-weight: 1000;
+    color: var(--dark);
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.navbar .navbar-brand {
+    color: var(--dark);
+    font-size: 25px;
+    font-weight: 1000;
+    margin-bottom: -5px;
+}
+
+h1,h2,h3,h4,h5,h6,
+.display-2, .display-6 {
+    font-weight: 500;
+    color: var(--pagebg);
+}
+
+.headings {
+    color: var(--dark);
+    font-weight: 600;
+}
+
+.paragraph {
+    color: var(--pagebg);
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url(../img/backg.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    margin-top: -20px;
+}
+
+.hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(45, 101, 136, 0.362);
+    z-index: -1;
+}
+
+#articles {
+    background-color: var(--lighestblue);
+}
+
+#about-us {
+    background-color: rgb(32, 71, 96);
+}
+
+.article-text {
+    color: var(--dark);
+}
+
+.article-post {
+    width: 400px;
+}
+
+.card-effect {
+    box-shadow: var(--box-shadow);
+    background-color: var(--pagebg);
+    padding: 25px;
+    margin-bottom: 20px;
+    transition: all 0.35s ease;
+}
+
+.card-effect:hover {
+    box-shadow: none;
+    transform: translateY(-1px);
+}
+
+.read {
+    transition: all 0.35s ease;
+}
+
+.read:hover {
+    animation: glow 1s infinite alternate;
+    transform: translateY(-2px);
+    
+}
+
+.footer-top {
+    padding-bottom: 10px;
+    padding: 10px;
+    background-color: #fff8f2;
+    box-shadow: 0px 0px 20px rgba(5, 5, 5, 0.5); /* Adjust the shadow properties as needed */
+}
+
+.social-icons {
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+/* article Pages */
+
+#top-bar {
+    margin-top: 10px;
+    background-color: #19425B;
+    height: 100px;
+    padding-top: 2px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#top-bar h1.article-headings a {
+    color: var(--beige); 
+    text-decoration: none; 
+}
+
+#content-container {
+    background-color: #D1ECFF;
+    color: var(--dark);
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+    height: 2355px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#content-container img {
+    max-width: 100%;
+    height: auto;
+    float: right; /* Align the image to the right */
+    margin-left: 20px; /* Add some margin between image and text */
+}
+
+#content-container h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--dark);
+}
+
+#top-bar2 {
+    margin-top: 10px;
+    background-color: #19425B;
+    height: 100px;
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#top-bar2 h1.article2-headings a {
+    color: var(--beige); 
+    text-decoration: none; 
+}
+
+#content-container2 {
+    background-color: #D1ECFF;
+    color: var(--dark);
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+    height: 605px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#content-container2 img {
+    max-width: 100%;
+    height: auto;
+    float: right; 
+    margin-left: 20px; 
+}
+
+#content-container2 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--dark);
+}
+
+#top-bar3 {
+    margin-top: 10px;
+    background-color: #19425B;
+    height: 100px;
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#top-bar3 h1.article3-headings a {
+    color: var(--beige); 
+    text-decoration: none; 
+}
+
+#content-container3 {
+    background-color: #D1ECFF;
+    color: var(--dark);
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+    height: 1800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#content-container3 img {
+    max-width: 50%;
+    height: auto;
+    float: right; 
+    margin-left: 20px; 
+}
+
+#content-container3 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--dark);
+}
+
+/* CSS for the rise-up animation */
+@keyframes riseUp {
+    from {
+        transform: translateY(50px); /* Adjust the initial position */
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Apply the animation to elements with the rise class when the rise-up class is added */
+.rise.rise-up {
+    animation: riseUp 0.5s ease forwards;
+}
+
+.tag-personal {
+    display: inline-block;
+    background-color: #cbf5d0;
+    padding: 0px 8px 4px 8px;
+    border-radius: 20px;
+    margin-left: 2px; /* Adjust as needed */
+}
+
+.tag-text-personal {
+    font-size: 12px;
+    color: #263729;
+    font-weight: bold;
+}
+
+.tag-author {
+    display: inline-block;
+    background-color: #f1e9e9;
+    padding: 0px 8px 4px 8px;
+    border-radius: 15px;
+    margin-left: 2px; /* Adjust as needed */
+}
+
+.tag-text-author {
+    font-size: 12px;
+    color: #555;
+    font-weight: bold;
+}
